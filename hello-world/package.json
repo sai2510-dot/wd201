@@ -1,6 +1,15 @@
 {
   "name": "hello-world",
   "version": "1.0.0",
+  "description": "A simple hello world CLI",
   "main": "index.js",
-  "type": "commonjs"
+  "type": "commonjs",
+  "bin": {
+    "hello-world": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
